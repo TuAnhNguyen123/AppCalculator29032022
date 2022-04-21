@@ -17,14 +17,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         AnhXa();
-        GetNumber();
+        //GetNumber();
 
     }
 
-    private void GetNumber() {
+   /* private void GetNumber() {
          valNum1 = Integer.parseInt(edtNum1.getText().toString());
          valNum2 = Integer.parseInt(edtNum2.getText().toString());
-    }
+    }*/
 
     private void AnhXa() {
         edtNum1 = findViewById(R.id.edtNum1);
@@ -36,28 +36,5 @@ public class MainActivity extends AppCompatActivity {
         btnDiv = findViewById(R.id.buttonDiv);
     }
 
-    public void AddButton(View view) {
-      valResult = valNum1 + valNum2;
-      edtResult.setText(valResult);
 
-    }
-
-    public void MulButton(View view) {
-        valResult = valNum1 * valNum2;
-        edtResult.setText(valResult);
-    }
-
-    public void SubButton(View view) {
-        valResult = valNum1 - valNum2;
-        edtResult.setText(valResult);
-    }
-
-    public void DivButton(View view) {
-        if(valNum2!=0) {
-            valResult = valNum1 / valNum2;
-            edtResult.setText(valResult);
-        }else{
-            edtResult.setText("Error!, Can't div for Zero");
-        }
-    }
 }

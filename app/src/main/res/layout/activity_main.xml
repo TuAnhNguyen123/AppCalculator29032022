@@ -57,7 +57,7 @@
            android:orientation="vertical">
            <Button
                android:layout_marginStart="52dp"
-               android:onClick="AddButton"
+
                android:textSize="25sp"
                android:id="@+id/buttonAdd"
                android:layout_marginTop="10dp"
@@ -68,7 +68,7 @@
            <Button
                android:layout_marginTop="50dp"
                android:layout_marginStart="52dp"
-               android:onClick="MulButton"
+
                android:textSize="25sp"
                android:id="@+id/buttonMul"
                android:layout_gravity="bottom"
@@ -86,19 +86,18 @@
                android:layout_marginEnd="52dp"
                android:layout_marginStart="52dp"
                android:layout_gravity="right"
-               android:onClick="SubButton"
+
                android:textSize="25sp"
                android:id="@+id/buttonSub"
                android:layout_marginTop="10dp"
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
-               android:text=" + "
+               android:text=" - "
                />
            <Button
                android:layout_marginTop="50dp"
                android:layout_marginStart="52dp"
                android:layout_gravity="right"
-               android:onClick="DivButton"
                android:textSize="25sp"
                android:id="@+id/buttonDiv"
                android:layout_marginEnd="52dp"
